@@ -38,7 +38,7 @@ img.rounded {
   background-color: #334A6B;
 }
 nav.footer {
-  background-color: #343a40;
+  background-color: #e8ebee;
   text-align: center;
   color: goldenrod;
   padding: 25px;
@@ -50,9 +50,8 @@ img.card-img-top {
   box-shadow: 13px 13px 20px #caced1, -13px -13px 20px white;
   border-radius: 10px;
   margin-top: 10px;
-  color: #fff;
-  background-color: #334A6B;
-  background-color: #0d0d0d;
+  color: #000;
+  background-color:#e8ebee;
   border: 2px dotted #e2bc8d;
 }
 .col{
@@ -102,10 +101,10 @@ h1.display-12.text-center {
   background-repeat: no-repeat;
   background-position: top 15px center;
   font-size: 35px;
-  color: #fff;
+  color: #000;
 }
 h2.fs-5 {
-  color: #fff;
+  color: #000;
 }
 #mpl{
   background-image: url(../../assets/images/ornam/Asset3.png),url(../../assets/images/ornam/Asset2.png);
@@ -229,7 +228,7 @@ audio {
 }
 #countdown {
   border-radius: 10px;
-  box-shadow: 5px 5px 10px #caced1,-5px -5px 10px white;
+  /* box-shadow: 5px 5px 10px #caced1,-5px -5px 10px white;*/
   margin-bottom: -10px;
   display: flex;
   flex-flow: column;
@@ -258,7 +257,7 @@ ul#hitungmundur li.separator {
   vertical-align: top;
 }
 ul#hitungmundur li p {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 16px;
 }
 .back-to-top {
@@ -683,4 +682,10 @@ main img {
 .img_blur {
   -webkit-filter: blur(3px);
   filter: blur(3px);
+}
+
+._5lm5 {
+  border-top: 1px solid #e9ebee;
+  font-size: 11px;
+  display: none;
 }
